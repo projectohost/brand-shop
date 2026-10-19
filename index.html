@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FATWOO — Fashion Archive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo">FATWOO<span>®</span></a>
+
+        <nav>
+            <a href="#home">Головна</a>
+            <a href="#collection">Колекція</a>
+            <a href="#about">Про нас</a>
+            <button id="openCart">Кошик (<span id="count">0</span>)</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <p class="small-text">INDEPENDENT FASHION BRAND / 2026</p>
+                <h1>AFTER THE<br><span>LIGHT.</span></h1>
+                <p class="description">
+                    Одяг для тих, хто не хоче бути як усі.
+                    Власний стиль. Жодних правил.
+                </p>
+                <a href="#collection" class="main-button">ДИВИТИСЯ КОЛЕКЦІЮ ↗</a>
+            </div>
+
+            <div class="hero-photo">
+                <img src="https://i.pinimg.com/736x/ef/ff/d8/efffd8f02c769f03f60c0a13f1e9922c.jpg" alt="Fashion образ">
+                <p>COLLECTION 001 — NO RULES</p>
+            </div>
+
+            <span class="hero-number">FW / 026</span>
+        </section>
+
+        <div class="line-text">
+            FATWOO — WEAR THE UNKNOWN — FATWOO — WEAR THE UNKNOWN
+        </div>
+
+        <section class="collection" id="collection">
+            <div class="section-title">
+                <div>
+                    <p class="small-text">01 / SELECTED ITEMS</p>
+                    <h2>OUR <span>OBJECTS.</span></h2>
+                </div>
+                <p>BLACK. OVERSIZED. DIFFERENT.</p>
+            </div>
+
+            <div class="products">
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/18/c8/79/18c879ee48678511aa0c568a76fb511d.jpg" alt="Чорна футболка">
+                    <p class="product-number">OBJECT 001</p>
+                    <h3>VOID T-SHIRT</h3>
+                    <p class="product-description">BLACK / COTTON</p>
+                    <p class="price">₴ 1 450</p>
+                    <label for="size1">Розмір:</label>
+                    <select id="size1">
+                        <option>S</option>
+                        <option selected>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <button class="add-button" data-name="VOID T-SHIRT" data-price="1450" data-size="size1">
+                        ДОДАТИ +
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img src="https://i.pinimg.com/1200x/a8/0e/e6/a80ee60278036e89902853ab2ff7cb68.jpg" alt="Темний одяг">
+                    <p class="product-number">OBJECT 002</p>
+                    <h3>STATIC HOODIE</h3>
+                    <p class="product-description">WASHED BLACK</p>
+                    <p class="price">₴ 2 800</p>
+                    <label for="size2">Розмір:</label>
+                    <select id="size2">
+                        <option>S</option>
+                        <option selected>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <button class="add-button" data-name="STATIC HOODIE" data-price="2800" data-size="size2">
+                        ДОДАТИ +
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/c7/b8/8f/c7b88f01c1bdcfa831aeaae72d11019d.jpg" alt="Монохромний fashion образ">
+                    <p class="product-number">OBJECT 003</p>
+                    <h3>GHOST LONGSLEEVE</h3>
+                    <p class="product-description">GRAPHITE / FITTED</p>
+                    <p class="price">₴ 1 900</p>
+                    <label for="size3">Розмір:</label>
+                    <select id="size3">
+                        <option>S</option>
+                        <option selected>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <button class="add-button" data-name="GHOST LONGSLEEVE" data-price="1900" data-size="size3">
+                        ДОДАТИ +
+                    </button>
+                </div>
+
+                <div class="product">
+                    <img src="https://i.pinimg.com/1200x/5a/fa/81/5afa81ede2278af86c44dbc9e580829e.jpg" alt="Вуличний стиль">
+                    <p class="product-number">OBJECT 004</p>
+                    <h3>NO SIGNAL PANTS</h3>
+                    <p class="product-description">CHARCOAL / LOOSE FIT</p>
+                    <p class="price">₴ 3 200</p>
+                    <label for="size4">Розмір:</label>
+                    <select id="size4">
+                        <option>S</option>
+                        <option selected>M</option>
+                        <option>L</option>
+                        <option>XL</option>
+                    </select>
+                    <button class="add-button" data-name="NO SIGNAL PANTS" data-price="3200" data-size="size4">
+                        ДОДАТИ +
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-photo">
+                <img src="https://i.pinimg.com/736x/1a/dd/26/1add26af4a7b0e09681db8e53e9abd90.jpg" alt="Fashion фотосесія">
+            </div>
+
+            <div class="about-text">
+                <p class="small-text">02 / OUR IDEA</p>
+                <h2>WE DON'T<br>FOLLOW THE<br><span>RULES.</span></h2>
+                <p>
+                    FATWOO — це про свободу самовираження.
+                    Ми любимо темні кольори, незвичайні силуети
+                    та одяг, який має свій характер.
+                </p>
+                <a href="#collection" class="main-button">ЗНАЙТИ СВІЙ СТИЛЬ ↗</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#home" class="logo">FATWOO<span>®</span></a>
+        <p>INDEPENDENT FASHION ARCHIVE</p>
+        <p>© 2026 FATWOO</p>
+    </footer>
+
+    <div class="cart" id="cart">
+        <div class="cart-box">
+            <div class="cart-heading">
+                <h2>ТВІЙ КОШИК</h2>
+                <button id="closeCart">✕</button>
+            </div>
+
+            <div id="cartItems">
+                <p class="empty">Тут поки нічого немає.</p>
+            </div>
+
+            <div class="cart-bottom">
+                <p>Разом: <strong id="total">₴ 0</strong></p>
+                <button id="orderButton">ОФОРМИТИ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
